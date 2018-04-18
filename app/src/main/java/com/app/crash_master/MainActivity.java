@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //制造空指针异常
         TextView getLog = null;
         getLog.setOnClickListener(new View.OnClickListener() {
             @Override
